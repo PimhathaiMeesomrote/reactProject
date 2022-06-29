@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View} from 'react-native'
 import React from 'react'
 
 const Logo = () => {
@@ -17,6 +17,7 @@ const Logo = () => {
         ?(<Text>ภาษาไทย</Text>)
         :(<Text>ภาษาอังกฤษ</Text>)
       }
+      
     </View>
   )
 }

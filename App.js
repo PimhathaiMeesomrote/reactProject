@@ -10,9 +10,10 @@ const App = () => {
   return (
     <View>
       {/* <Text style={[styles.title]}>React Native</Text> */}
-      <TextInputExample/>
+      {/* <TextInputExample/> */}
       {/* <Cat/> */}
       {/* <Cafe/> */}
+      <Logo/>
     </View>
   );
 };

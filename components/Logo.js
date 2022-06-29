@@ -1,10 +1,12 @@
-/*import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const Logo = () => {
+  const textLogo = "Thai-Nichi";
   return (
     <View>
-      <Text style={styles.textlogo}>TNI</Text>
+      <Text style={styles.TextLogo}>TNI</Text>
+      <Text>{textLogo}</Text>
     </View>
   )
 }
@@ -12,9 +14,8 @@ const Logo = () => {
 export default Logo
 
 const styles = StyleSheet.create({
-    textlogo : {
+    TextLogo : {
         color : 'pink',
         fontSize : 60
     }
 })
-*/

@@ -3,13 +3,15 @@ import React from 'react'
 import Logo from './components/Logo'
 import User from './components/User'
 import LotsOfGreetings from './components/LotsOfGreetings'
+import MyCustomTextWith from './components/MyCustomTextWith'
 
 const App = () => {
   return (
-    <View>
+    <View style={{ flex:1,justifyContent: "center", alignItems: "center"}} >
       {/* <Logo/> */}
       {/* <User/> */}
-      <LotsOfGreetings/>
+      {/* <LotsOfGreetings/> */}
+      <MyCustomTextWith/>
     </View>
   )
 }

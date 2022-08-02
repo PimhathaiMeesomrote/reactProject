@@ -14,10 +14,11 @@ import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
 import DynamicStyle from './components/DynamicStyle'
 import ModelExample from './components/ModelExample'
+import ModalPractice from './components/ModalPractice'
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <View  style={styles.container}>
       {/* <Logo/> */}
       {/* <User/> */}
       {/* <LotsOfGreetings/> */}
@@ -31,7 +32,8 @@ const App = () => {
       {/* <Touchable_Example/> */}
       {/* <TouchablePractice/> */}
       {/* <DynamicStyle/> */}
-      <ModelExample/>
+      {/* <ModelExample/> */}
+      <ModalPractice/>
     </View>
   )
 }
